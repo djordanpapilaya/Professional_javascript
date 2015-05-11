@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+//this is my click function
 function ClickEvent(e) {
     e.preventDefault();
     var todoEntery = document.getElementById("newEntery").value;
