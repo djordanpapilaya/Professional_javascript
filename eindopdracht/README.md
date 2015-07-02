@@ -2,7 +2,7 @@ Eindopdracht FED01
 ==================
 Twitter Emotion Feed
 --------------
-Dit is de eindopdracht van het van FED01. Bij deze eindopdracht is gebruik gemaakt van Backbone.js
+Dit is de eindopdracht van het vak FED01. Bij deze eindopdracht is gebruik gemaakt van Backbone.js
 
 Uitleg applicatie
 --------------
@@ -13,3 +13,7 @@ Gebruikte frameworks
 - Backbone JS
 - Jquery
 - TwitterApiExchange library
+
+Demo
+--------------
+http://stud.cmi.hro.nl/0874349/fed01
