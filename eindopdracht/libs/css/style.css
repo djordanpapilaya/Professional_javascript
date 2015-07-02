@@ -1,0 +1,89 @@
+html {
+
+}
+
+body {
+    font: bold 1em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-shadow:  0 0.025em 0 rgba(0, 0, 0, 0.1);
+    letter-spacing: -0.05em;
+    word-wrap: break-word;
+}
+
+#feed-container {
+    color: #fff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#feed{
+    font-size: 36px;
+    margin-top: 10px;
+}
+@media (min-width: 768px) {
+    #feed {
+        font-size: 46px;
+    }
+}
+
+@media (min-width: 992px) {
+    #feed {
+        font-size: 56px;
+    }
+
+}
+@media (min-width: 1200px) {
+    #feed {
+        font-size: 60px;
+    }
+}
+
+.input{
+    position: relative;
+    vertical-align: 10px;
+}
+
+
+
+.default {
+    background-color: #E91E63;
+}
+
+.hate{
+    background-color: #F44336;
+}
+
+.happiness{
+    background-color: #FFC107;
+}
+
+.sad{
+    background-color: #607D8B;
+}
+
+#button_container{
+    position: absolute;
+    bottom: 20px;
+}
+
+.active{
+    background-color: #ffffff;
+    color: #000000;
+}
+.active:hover{
+    color: #000000;
+}
+
+a{
+    color: #ffffff;
+    text-align: center;
+    border: 1px hidden #ffffff;
+    padding: 1px;
+}
+
+a:hover{
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 1px;
+}

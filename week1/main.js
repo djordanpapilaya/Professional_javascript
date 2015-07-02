@@ -55,6 +55,14 @@ var createAthelete = function(dayOfBirth, name, surname, stamina, strength, leng
     return athelete;
 };
 
+var createAthlethes = function(data){
+     var athlets = [];
+    [].forEach.call(data, function(val, index){
+        var athlete = createAthelete(val);
+        athlets.push(athelete);
+    })
+};
+
 
 
 var athelete = createAthelete(1996, "Djordan", "pap", 12, 4, 186);
